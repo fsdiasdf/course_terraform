@@ -7,3 +7,6 @@ AZURE-STORAGE-ACCOUNT/terraform.tfstate.backup
 AWS-BUCKET/.terraform.lock.hcl
 AWS-BUCKET/.terraform/providers/registry.terraform.io/hashicorp/aws/5.74.0/linux_amd64/LICENSE.txt
 AWS-BUCKET/.terraform/providers/registry.terraform.io/hashicorp/aws/5.74.0/linux_amd64/terraform-provider-aws_v5.74.0_x5
+AWS-BUCKET/plan.out
+AWS-BUCKET/terraform.tfstate
+AWS-BUCKET/terraform.tfstate.backup
