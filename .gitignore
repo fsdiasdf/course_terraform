@@ -1,0 +1,3 @@
+AZURE-STORAGE-ACCOUNT/.terraform.lock.hcl
+AZURE-STORAGE-ACCOUNT/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.8.0/linux_amd64/LICENSE.txt
+AZURE-STORAGE-ACCOUNT/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.8.0/linux_amd64/terraform-provider-azurerm_v4.8.0_x5
