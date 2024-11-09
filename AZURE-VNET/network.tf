@@ -11,7 +11,7 @@ resource "azurerm_virtual_network" "vnet" {
   resource_group_name = azurerm_resource_group.resource_group.name
   address_space       = ["10.0.0.0/16"]
 
-tags = local.common_tags
+  tags = local.common_tags
 }
 
 resource "azurerm_subnet" "subnet" {
