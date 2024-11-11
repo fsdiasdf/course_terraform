@@ -33,3 +33,10 @@ AWS-VM-COM-VPC-REMOTE-STATE/.terraform.lock.hcl
 AWS-VM-COM-VPC-REMOTE-STATE/.terraform/terraform.tfstate
 AWS-VM-COM-VPC-REMOTE-STATE/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/LICENSE.txt
 AWS-VM-COM-VPC-REMOTE-STATE/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/terraform-provider-aws_v5.75.1_x5
+AZURE-VM/.terraform.lock.hcl
+AZURE-VM/azure-key
+AZURE-VM/azure-key.pub
+AZURE-VM/.terraform/terraform.tfstate
+AZURE-VM/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.9.0/linux_amd64/LICENSE.txt
+AZURE-VM/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.9.0/linux_amd64/terraform-provider-azurerm_v4.9.0_x5
+AZURE-VM/plan.out
