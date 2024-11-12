@@ -56,3 +56,8 @@ AZURE-VM-PROVISIONERS/.terraform/terraform.tfstate
 AZURE-VM-PROVISIONERS/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.9.0/linux_amd64/terraform-provider-azurerm_v4.9.0_x5
 AWS-VM-USER-DATA/aws-key
 AWS-VM-USER-DATA/aws-key.pub
+AWS-VM-USER-DATA/.terraform/terraform.tfstate
+AWS-VM-USER-DATA/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/LICENSE.txt
+AWS-VM-USER-DATA/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/terraform-provider-aws_v5.75.1_x5
+AWS-VM-USER-DATA/.terraform.lock.hcl
+AWS-VM-USER-DATA/plan.out

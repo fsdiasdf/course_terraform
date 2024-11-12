@@ -10,7 +10,7 @@ resource "aws_instance" "vm" {
   subnet_id                   = data.terraform_remote_state.vpc.outputs.subnet_id
   vpc_security_group_ids      = [data.terraform_remote_state.vpc.outputs.security_group_id]
   associate_public_ip_address = true
-  user_data = file("./docs/docker.sh")
+  user_data                   = file("./docs/docker.sh")
 
   tags = {
     Name = "vm-terraform"
