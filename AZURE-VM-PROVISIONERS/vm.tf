@@ -77,21 +77,20 @@ resource "azurerm_linux_virtual_machine" "vm" {
     host     = self.public_ip_address
   }
 
-    provisioner "remote-exec" {
+  provisioner "remote-exec" {
     inline = [
-      "echo subnet_id: ${data.terraform_remote_state.vnet.outputs.subnet_id} >> network_info.txt",
-      "echo network_security_group_id: ${data.terraform_remote_state.vnet.outputs.security_group_id} >> network_info.txt",
+      "echo subnet_id: ${data.terraform_remote_state.vnet.outputs.subnet_id} >> /tmp/network_info.txt",
     ]
   }
 
-    provisioner "file" {
+  provisioner "file" {
     source      = "./docs/"
     destination = "/tmp"
   }
 
   provisioner "file" {
-    content = "VM size: ${self.size}"
-destination = "/tmp/vm_size.txt"
+    content     = "VM size: ${self.size}"
+    destination = "/tmp/vm_size.txt"
   }
 
   tags = local.common_tags

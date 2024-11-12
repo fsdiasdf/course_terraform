@@ -49,3 +49,8 @@ AWS-VM-PROVISIONERS/.terraform.lock.hcl
 AWS-VM-PROVISIONERS/plan.out
 AZURE-VM-PROVISIONERS/azure-key
 AZURE-VM-PROVISIONERS/azure-key.pub
+AZURE-VM-PROVISIONERS/.terraform.lock.hcl
+AZURE-VM-PROVISIONERS/plan.out
+AZURE-VM-PROVISIONERS/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.9.0/linux_amd64/LICENSE.txt
+AZURE-VM-PROVISIONERS/.terraform/terraform.tfstate
+AZURE-VM-PROVISIONERS/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.9.0/linux_amd64/terraform-provider-azurerm_v4.9.0_x5
