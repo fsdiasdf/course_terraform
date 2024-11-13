@@ -61,3 +61,5 @@ AWS-VM-USER-DATA/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1
 AWS-VM-USER-DATA/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/terraform-provider-aws_v5.75.1_x5
 AWS-VM-USER-DATA/.terraform.lock.hcl
 AWS-VM-USER-DATA/plan.out
+AZURE-VM-CUSTOM-DATA/azure-key
+AZURE-VM-CUSTOM-DATA/azure-key.pub
