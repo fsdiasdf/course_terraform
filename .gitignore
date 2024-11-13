@@ -76,3 +76,5 @@ AWS-VM-MODULOS-LOCAIS/.terraform/modules/modules.json
 AWS-VM-MODULOS-LOCAIS/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/LICENSE.txt
 AWS-VM-MODULOS-LOCAIS/.terraform/providers/registry.terraform.io/hashicorp/aws/5.75.1/linux_amd64/terraform-provider-aws_v5.75.1_x5
 AWS-VM-MODULOS-LOCAIS/plan.out
+AZURE-VM-MODULOS-REMOTOS/azure-key
+AZURE-VM-MODULOS-REMOTOS/azure-key.pub
