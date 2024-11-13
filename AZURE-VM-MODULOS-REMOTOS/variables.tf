@@ -6,6 +6,6 @@ variable "location" {
 
 variable "environment" {
   description = "Ambiente a que pertencem os recursos criados na AZURE"
-  type = string
-  default = "DEV"
+  type        = string
+  default     = "DEV"
 }

@@ -35,9 +35,9 @@ resource "azurerm_network_interface_security_group_association" "nisga" {
 }
 
 resource "azurerm_linux_virtual_machine" "vm" {
-  depends_on = [ 
+  depends_on = [
     azurerm_network_interface_security_group_association.nisga
-   ]
+  ]
   name                = "vm-${var.environment}"
   resource_group_name = azurerm_resource_group.resource_group.name
   location            = var.location
