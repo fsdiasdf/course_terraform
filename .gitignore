@@ -83,3 +83,7 @@ AZURE-VM-MODULOS-REMOTOS/plan.out
 AZURE-VM-MODULOS-REMOTOS/.terraform/terraform.tfstate
 AZURE-VM-MODULOS-REMOTOS/.terraform/modules/modules.json
 AZURE-VM-MODULOS-REMOTOS/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.49.0/linux_amd64/terraform-provider-azurerm_v3.49.0_x5
+data-source-azure-storage-account/.terraform/terraform.tfstate
+data-source-azure-storage-account/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/LICENSE.txt
+data-source-azure-storage-account/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/terraform-provider-azurerm_v4.10.0_x5
+data-source-azure-storage-account/.terraform.lock.hcl
