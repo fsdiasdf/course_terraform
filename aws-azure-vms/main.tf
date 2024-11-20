@@ -1,25 +1,23 @@
 terraform {
-    required_version = ">= 1.9.0"
+  required_version = ">= 1.9.0"
 
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "5.76.0"
     }
-  }
 
-    required_providers {
     azurerm = {
-      source = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm"
       version = "4.10.0"
     }
   }
 
   backend "azurerm" {
-        resource_group_name  = "rg-terraform-state"           
-        storage_account_name = "felipediasterraformstate"     
-        container_name       = "remote-state"                 
-        key                  = "pipeline-gitlab/terraform.tfstate" 
+    resource_group_name  = "rg-terraform-state"
+    storage_account_name = "felipediasterraformstate"
+    container_name       = "remote-state"
+    key                  = "pipeline-gitlab/terraform.tfstate"
   }
 }
 
@@ -28,14 +26,14 @@ provider "aws" {
 
   default_tags {
     tags = {
-      owner = "felipedias"
+      owner      = "felipedias"
       managed-by = "terraform"
     }
   }
 }
 
 provider "azurerm" {
-    features {}
+  features {}
 }
 
 data "terraform_remote_state" "vpc" {
@@ -47,12 +45,12 @@ data "terraform_remote_state" "vpc" {
   }
 }
 
-data "terraform-remote-state" "vnet" {
-    backend = "azurerm"
-    config = {
-        resource_group_name  = "rg-terraform-state"           
-        storage_account_name = "felipediasterraformstate"     
-        container_name       = "remote-state"                 
-        key                  = "azure-vnet/terraform.tfstate" 
-    }
+data "terraform_remote_state" "vnet" {
+  backend = "azurerm"
+  config = {
+    resource_group_name  = "rg-terraform-state"
+    storage_account_name = "felipediasterraformstate"
+    container_name       = "remote-state"
+    key                  = "azure-vnet/terraform.tfstate"
+  }
 }

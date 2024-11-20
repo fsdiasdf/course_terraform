@@ -91,3 +91,9 @@ aws-azure-vms/aws-key
 aws-azure-vms/aws-key.pub
 aws-azure-vms/azure-key
 aws-azure-vms/azure-key.pub
+aws-azure-vms/.terraform/terraform.tfstate
+aws-azure-vms/.terraform/providers/registry.terraform.io/hashicorp/aws/5.76.0/linux_amd64/LICENSE.txt
+aws-azure-vms/.terraform/providers/registry.terraform.io/hashicorp/aws/5.76.0/linux_amd64/terraform-provider-aws_v5.76.0_x5
+aws-azure-vms/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/LICENSE.txt
+aws-azure-vms/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/terraform-provider-azurerm_v4.10.0_x5
+aws-azure-vms/.terraform.lock.hcl
