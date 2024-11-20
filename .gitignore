@@ -87,3 +87,7 @@ data-source-azure-storage-account/.terraform/terraform.tfstate
 data-source-azure-storage-account/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/LICENSE.txt
 data-source-azure-storage-account/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.10.0/linux_amd64/terraform-provider-azurerm_v4.10.0_x5
 data-source-azure-storage-account/.terraform.lock.hcl
+aws-azure-vms/aws-key
+aws-azure-vms/aws-key.pub
+aws-azure-vms/azure-key
+aws-azure-vms/azure-key.pub
