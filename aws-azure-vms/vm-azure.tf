@@ -30,7 +30,7 @@ resource "azurerm_network_interface" "nic" {
 
 resource "azurerm_network_interface_security_group_association" "nisga" {
   network_interface_id      = azurerm_network_interface.nic.id
-  network_security_group_id = data.terraform_remote_state.vnet.outputs.security_group_id
+  network_security_group_id = data.terraform_remote_state.vnet.outputs.network_security_group_id
 }
 
 resource "azurerm_linux_virtual_machine" "vm" {
