@@ -17,7 +17,7 @@ terraform {
     resource_group_name  = "rg-terraform-state"
     storage_account_name = "felipediasterraformstate"
     container_name       = "remote-state"
-    key                  = "pipeline-gitlab/terraform.tfstate"
+    key                  = "pipeline-github/terraform.tfstate"
   }
 }
 
